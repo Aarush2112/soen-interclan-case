@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    width: 100vw;
+    min-height: 75px;
+}
+
+#heading{
+    display: flex;
+    font-size: 25px;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#navitems{
+    width: 100vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 25px;
+}
